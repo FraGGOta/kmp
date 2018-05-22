@@ -1,0 +1,6 @@
+The invention of the microprocessor, a machine which combines the equivalent of thousands of  transistors on a single, tiny silicon chip, was developed by Ted Hoff at Intel Corporation in the Santa 
+Clara Valley south of San Francisco, California, an area that was destined to become known to the world as Silicon Valley because of the microprocessor and computer industry that grew up there.
+Because a CPU calculates, performs logical operations, contains operating instructions, and manages data flows, the potential existed for developing a separate system that could function as a complete microcomputer.
+The first such desktop-size system specifically designed for personal use appeared in 1974; it was offered by Micro Instrumentation Telemetry Systems (MITS).
+The owners of the system were then encouraged by the editor of a popular technology magazine to create and sell a mail-order computer kit through the magazine.
+The computer, which was called Altair, retailed for slightly less than $400.
