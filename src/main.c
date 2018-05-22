@@ -11,13 +11,13 @@ int main(int argc, char *argv[])
 
     if (argc != 3) {
 	printf("Invalid argument\n");
-	return 1;
+	return -1;
     }
 
     in = fopen(argv[2], "r");
     if (in == NULL) {
 	printf("Error open file\n");
-	return 1;
+	return -1;
     }
 
     while (!feof(in)) {
