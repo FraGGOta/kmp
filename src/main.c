@@ -10,21 +10,21 @@ int main(int argc, char *argv[])
     int position;
 
     if (argc != 3) {
-	printf("Параметры заданы неверно\n");
-	return 1;
+		printf("Параметры заданы неверно\n");
+		return 1;
     }
 
     in = fopen(argv[2], "r");
     if (in == NULL) {
-	printf("Ошибка открытия файла\n");
-	return 1;
+		printf("Ошибка открытия файла\n");
+		return 1;
     }
 
     while (!feof(in)) {
-    fgets(str, 10000, in);
-    position = kmp(str, argv[1]);
-    if (position > 0){
-        printf("%d: %d\n", counter, position + 1);
+		fgets(str, 10000, in);
+		position = kmp(str, argv[1]);
+		if (position > 0){
+			printf("%d: %d\n", counter, position + 1);
 		}
 		counter++;
     }
